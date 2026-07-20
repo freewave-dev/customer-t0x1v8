@@ -327,7 +327,7 @@ h1, h2, h3, h4 {
   .split.reverse .split-media { order: 0; }
   .footer-top { grid-template-columns: 1fr 1fr; }
   .footer-top .footer-brand { grid-column: 1 / -1; }
-  .nav { flex-wrap: wrap; }
+  .nav { flex-wrap: wrap; row-gap: 0; }
   .nav-toggle { display: inline-flex; order: 3; }
   .nav-links {
     order: 5; flex-basis: 100%; flex-direction: column; align-items: flex-start; gap: 0;
