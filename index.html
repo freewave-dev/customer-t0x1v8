@@ -3,21 +3,174 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Site Coming Soon</title>
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f1f5f9;color:#1C1F24;min-height:100vh;display:flex;align-items:center;justify-content:center}
-.card{text-align:center;background:#fff;border-radius:16px;padding:3rem 2.5rem;box-shadow:0 1px 3px rgba(0,0,0,.08);max-width:480px;margin:1rem}
-h1{font-size:1.5rem;margin-bottom:.5rem}
-p{color:#5F6B7A;line-height:1.6}
-.brand{color:#2EA8FF;font-weight:700}
-</style>
+<title>Tekla Farms — Heirloom Blueberries &amp; Vibrant Flowers on Orcas Island</title>
+<meta name="description" content="A small, family-owned farm on Orcas Island, Washington, growing heirloom high-bush blueberries and vibrant cut flowers with a regenerative, pollinator-friendly approach.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Tekla Farms — Heirloom Blueberries &amp; Vibrant Flowers">
+<meta property="og:description" content="U-Pick heirloom blueberries and vibrant cut flowers, grown with love on Orcas Island, WA.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/og-image.jpg">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="card">
-<h1>Your site is being set up</h1>
-<p>We're getting everything ready for you. Check back soon!</p>
-<p style="margin-top:1.5rem;font-size:.85rem">Powered by <a href="https://freewave.dev" style="color:#2EA8FF;font-weight:700;text-decoration:none">Freewave.dev</a></p>
-</div>
+<header class="site-header">
+  <nav class="nav wrap">
+    <a class="brand" href="index.html" aria-label="Tekla Farms home">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#f2ead8"/><path d="M40 15c6 1 10 6 8 12-5-1-9-6-8-12z" fill="#6f8f6f"/><path d="M33 20c0 4-3 8-8 9 0-5 3-8 8-9z" fill="#4f6e50"/><circle cx="24" cy="40" r="11" fill="#454a86"/><circle cx="41" cy="44" r="9" fill="#33366a"/><circle cx="20" cy="36" r="2" fill="#7d81b8" opacity=".7"/></svg>
+      <span><span class="brand-name">Tekla Farms</span><span class="brand-tag">Orcas Island, WA</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="blueberries.html">Blueberries</a></li>
+      <li><a href="flowers.html">Flowers</a></li>
+      <li><a href="about.html">Our Story</a></li>
+      <li><a href="visit.html">Visit</a></li>
+    </ul>
+    <a class="btn btn-primary nav-cta" href="visit.html#plan">Plan Your Visit</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" style="background-image: linear-gradient(180deg, rgba(28,26,48,0.30), rgba(28,26,48,0.74)), url('https://images.unsplash.com/photo-1464297162577-f5295c892194?auto=format&fit=crop&w=1800&q=80');">
+    <div class="hero-inner wrap">
+      <span class="hero-badge fade-up"><span class="dot"></span> Family-owned &amp; regenerative</span>
+      <h1 class="fade-up d1">Heirloom blueberries &amp;<br><em>vibrant flowers</em></h1>
+      <p class="lede fade-up d2">A small, family farm on Orcas Island — U-Pick blueberries grown as close to wild as possible, and cut flowers raised with pollinators in mind.</p>
+      <div class="hero-actions fade-up d3">
+        <a class="btn btn-primary" href="blueberries.html">Pick blueberries <span class="arrow">→</span></a>
+        <a class="btn btn-ghost on-dark" href="flowers.html">Shop the flowers</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="strip" aria-hidden="true">
+    <div class="strip-track">
+      <span>U-Pick Blueberries</span><span>Vibrant Cut Flowers</span><span>Grown Without Pesticides</span><span>Pollinator-Friendly</span><span>Family &amp; Friends</span>
+      <span>U-Pick Blueberries</span><span>Vibrant Cut Flowers</span><span>Grown Without Pesticides</span><span>Pollinator-Friendly</span><span>Family &amp; Friends</span>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <p class="eyebrow">Welcome to the farm</p>
+        <h2>Grown with love on Orcas Island</h2>
+        <p>What started as fallow, logged timberland is now thousands of flowers and rows of heirloom blueberry bushes — tended by our family, our kids, and our friends.</p>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="icon" aria-hidden="true">✦</div>
+          <h3>Antioxidant-rich berries</h3>
+          <p>Heirloom high-bush blueberries grown as close to wild as possible — never sprayed with pesticides.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon" aria-hidden="true">❀</div>
+          <h3>Vibrant cut flowers</h3>
+          <p>Thousands of blooms raised beside the berry field with regenerative, pesticide-free practices.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon" aria-hidden="true">☼</div>
+          <h3>A family destination</h3>
+          <p>A wholesome, idyllic farm experience — tall bushes mean no bending down and no sore backs.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="wrap split reveal">
+      <div class="split-media">
+        <img src="https://images.unsplash.com/photo-1498557850523-fd3d118b962e?auto=format&fit=crop&w=1200&q=80" alt="Ripe blueberries on the bush">
+        <span class="tag">U-Pick · $4.35 / lb</span>
+      </div>
+      <div class="split-body">
+        <p class="eyebrow">The blueberries</p>
+        <h2>Tall bushes, sweeter memories</h2>
+        <p>Our heirloom high-bush blueberries were transplanted in 2023 from a certified organic farm in Snohomish County. The bushes are 10–15 years old and tall — no bending down to pick. While we aren't certified organic, we never spray our blueberries with pesticides.</p>
+        <a class="btn btn-primary" href="blueberries.html">Plan a U-Pick <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="wrap split reverse reveal">
+      <div class="split-media">
+        <img src="https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?auto=format&fit=crop&w=1200&q=80" alt="A vibrant hand-tied bouquet of cut flowers">
+        <span class="tag">Bouquets &amp; buckets</span>
+      </div>
+      <div class="split-body">
+        <p class="eyebrow">The flowers</p>
+        <h2>A field of vibrant blooms</h2>
+        <p>Thousands of flowers grow in the field beside our blueberries — sustainable and pesticide-free. Find our bouquets at the Island Market during the growing season, order bulk flower buckets for events, or dream up wedding florals with us.</p>
+        <a class="btn btn-primary" href="flowers.html">Explore the flowers <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section panel-cream">
+    <div class="wrap">
+      <div class="split" style="align-items:center;">
+        <div class="split-body reveal">
+          <p class="eyebrow">Our name</p>
+          <h2>In honor of Tekla</h2>
+          <p>Tekla Farms pays homage to Brian's grandmother, Tekla Sophia — a Finnish immigrant who homesteaded and farmed in Northeastern Minnesota. Her name carries the same spirit we bring to the land today: hard work, generosity, and roots that run deep.</p>
+          <a class="btn btn-ghost" href="about.html">Read our story <span class="arrow">→</span></a>
+        </div>
+        <div class="reveal">
+          <ul class="checklist">
+            <li>Regenerative, pollinator-friendly farming</li>
+            <li>No pesticides on our berries or blooms</li>
+            <li>Locally owned by Brian &amp; Laura Torma</li>
+            <li>A welcoming spot for the whole family</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section panel-indigo">
+    <div class="wrap cta-band reveal">
+      <p class="eyebrow on-dark">Come see us</p>
+      <h2>Fresh air, full baskets, fields in bloom</h2>
+      <p>Bring the family up the road to 5320 Orcas Rd. — freezer bags for your berries are on us.</p>
+      <div class="cta-actions">
+        <a class="btn btn-primary" href="visit.html#plan">Plan your visit <span class="arrow">→</span></a>
+        <a class="btn btn-ghost on-dark" href="flowers.html">Order flowers</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="brand-name" style="font-size:1.35rem;">Tekla Farms</span>
+        <p>Heirloom blueberries &amp; vibrant flowers, grown with love on Orcas Island, Washington.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="blueberries.html">U-Pick Blueberries</a></li>
+          <li><a href="flowers.html">Cut Flowers</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="visit.html">Visit the Farm</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Find us</h4>
+        <ul>
+          <li><a href="visit.html#plan">5320 Orcas Rd, Eastsound</a></li>
+          <li><a href="tel:+13603583295">360-358-3295</a></li>
+          <li><a href="mailto:hello@teklafarms.com">hello@teklafarms.com</a></li>
+          <li><a href="https://www.instagram.com/teklafarms" target="_blank" rel="noopener">Instagram @teklafarms</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Tekla Farms · Orcas Island, WA &middot; Site by <a href="https://freewave.dev" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:2px">Freewave.dev</a></span>
+      <span>heirloom blueberries &amp; vibrant flowers</span>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
